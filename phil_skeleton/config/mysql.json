@@ -1,0 +1,23 @@
+{
+	"user" : "mysql",
+	"pass" : "",
+	"pools" : {
+		"0" : {
+			"id" : 0,
+			"name" : "main",
+			"num_virt_shards" : 1024,
+			"phys_shards" : [
+				{
+					"min_virt_shard" : 0,
+					"max_virt_shard" : 1023,
+					"servers" : [
+						{
+							"host" : "localhost",
+							"port" : 3306
+						}
+					]
+				}
+			]
+		}
+	}
+}

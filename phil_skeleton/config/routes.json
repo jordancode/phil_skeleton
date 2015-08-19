@@ -1,0 +1,28 @@
+{	
+	"www" : {
+		"/" : {
+			"methods" : ["GET"],
+		    "endpoint" : "page_controller.index"
+		}
+	},
+	"api" : {
+		"/user/me/" : {
+			"methods" : ["GET"],
+			"endpoint" : "user_controller.get_me"
+		},
+		"/user/<int:user_id>/" : {
+			"methods" : ["GET"],
+			"endpoint" : "user_controller.get"
+		}, 
+		"/users/" : {
+			"methods" : ["POST"],
+			"endpoint" : "user_controller.create"
+		}
+	},
+	"admin" : {
+		"/request/" : {
+			"methods" : ["GET","POST"],
+			"endpoint" : "admin.debug_controller.dump_request"
+		}
+	}
+}
