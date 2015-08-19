@@ -1,0 +1,3 @@
+[submodule "phil_skeleton/framework"]
+	path = phil_skeleton/framework
+	url = https://github.com/jordancode/phil
