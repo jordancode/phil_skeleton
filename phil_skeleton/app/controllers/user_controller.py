@@ -1,4 +1,4 @@
-from framework.base_controller import BaseController
+from framework.controllers.base_controller import BaseController
 from framework.http.json_response import JSONResponse
 
 class UserController(BaseController):

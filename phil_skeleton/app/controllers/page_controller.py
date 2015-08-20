@@ -1,4 +1,4 @@
-from framework.base_controller import BaseController
+from framework.controllers.base_controller import BaseController
 from framework.http.partial_page_response import PartialPageResponse
 from framework.http.page_response import PageResponse
 
